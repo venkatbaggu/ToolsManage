@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30C9596F-7A9C-4776-9A46-4BF554954DB3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ToolsManage</RootNamespace>
+    <AssemblyName>ToolsManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>1</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>comp_web.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\..\..\..\..\参考学习\软件\界面\Reference\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.ZKFPEngXControl">
+      <HintPath>DLL\AxInterop.ZKFPEngXControl.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v15.2.Win, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DSControls">
+      <HintPath>E:\学习资料\c#资料\DYLike界面美化\DSControls_DYLIKE控件库1.0.1.7\DSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZKFPEngXControl, Version=4.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>DLL\Interop.ZKFPEngXControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="n3kAdrtB">
+      <HintPath>DLL\n3kAdrtB.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.Core, Version=6.6.6739.19684, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NewLife.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UHFReader28CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\UHFReader28CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="XCode, Version=9.6.6739.19685, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\XCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass\clsNewEvent.cs" />
+    <Compile Include="BaseClass\clsNewTreeView.cs" />
+    <Compile Include="BaseClass\DoorClass\clsDoorInfo.cs" />
+    <Compile Include="BaseClass\DoorClass\clsWgInfo.cs" />
+    <Compile Include="BaseClass\DoorClass\clsWgRunWatch.cs" />
+    <Compile Include="BaseClass\DoorClass\clsZkControl.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsEnvirControl.cs" />
+    <Compile Include="BaseClass\ExcelClass\AsposeExcelTools.cs" />
+    <Compile Include="BaseClass\infoOfSystem.cs" />
+    <Compile Include="BaseClass\OtherClass\AppConfig.cs" />
+    <Compile Include="BaseClass\OtherClass\DatabaseInfo.cs" />
+    <Compile Include="BaseClass\PowerReaders\PowerReader.cs" />
+    <Compile Include="BaseClass\RFidClass\clsReadEpc.cs" />
+    <Compile Include="BaseClass\RFidClass\clsRfidRead.cs" />
+    <Compile Include="BaseClass\RFidClass\NetRfid\EpcInfo.cs" />
+    <Compile Include="BaseClass\RFidClass\NetRfid\RfidManage.cs" />
+    <Compile Include="BaseClass\RFidClass\NetRfid\SingleRfid.cs" />
+    <Compile Include="BaseClass\RFidClass\NetRfid\UHFReader.cs" />
+    <Compile Include="BaseClass\SeralClass\clsSerialAir.cs" />
+    <Compile Include="BaseClass\SeralClass\clsSerialVoice.cs" />
+    <Compile Include="BaseClass\SeralClass\clsSerialXF.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortAir.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortVoice.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortXF.cs" />
+    <Compile Include="BaseClass\VoiceClass\AudioHelper.cs" />
+    <Compile Include="BaseClass\DoorClass\clsZkDoor.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsAir.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsDehumi.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsEnvirSet.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsFan.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsFire.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsHot.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsRelay.cs" />
+    <Compile Include="BaseClass\EnvirClass\clsWsd.cs" />
+    <Compile Include="BaseClass\OtherClass\ConvertHelper.cs" />
+    <Compile Include="BaseClass\OtherClass\Crc.cs" />
+    <Compile Include="BaseClass\DataBase\DataLogic.cs" />
+    <Compile Include="BaseClass\OtherClass\DirectoryUtil.cs" />
+    <Compile Include="BaseClass\EnvirClass\RoomClass.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortSensor.cs" />
+    <Compile Include="BaseClass\SeralClass\clsSerialSensor.cs" />
+    <Compile Include="BaseClass\VoiceClass\SoundPlayerHelper.cs" />
+    <Compile Include="BaseClass\OtherClass\StationServer.cs" />
+    <Compile Include="BaseClass\OtherClass\FileDialogHelper.cs" />
+    <Compile Include="BaseClass\OtherClass\FileUtil.cs" />
+    <Compile Include="BaseClass\clsCommon.cs" />
+    <Compile Include="BaseClass\MainControl.cs" />
+    <Compile Include="BaseClass\OtherClass\MessageUtil.cs" />
+    <Compile Include="BaseClass\DataBase\DataOperate.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortIo.cs" />
+    <Compile Include="BaseClass\SeralClass\SerialPortUtil.cs" />
+    <Compile Include="BaseClass\SeralClass\clsSerialIo.cs" />
+    <Compile Include="BaseClass\OtherClass\StartupHelper.cs" />
+    <Compile Include="BaseClass\TimerClass\TimerHelper.cs" />
+    <Compile Include="BaseClass\TimerClass\TimerHelperForm.cs" />
+    <Compile Include="BaseClass\ToolInfo.cs" />
+    <Compile Include="BaseClass\OtherClass\txtLog.cs" />
+    <Compile Include="BaseClass\RFidClass\clsRfid.cs" />
+    <Compile Include="BaseClass\WaitingBox\frmWaitingBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseClass\WaitingBox\frmWaitingBox.designer.cs">
+      <DependentUpon>frmWaitingBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\Context.cs" />
+    <Compile Include="Common\Configurations.cs" />
+    <Compile Include="Common\FileLog\TXTWriteHelper.cs" />
+    <Compile Include="Common\MsgBox.cs" />
+    <Compile Include="Domain\TbAcinfo.Biz.cs" />
+    <Compile Include="Domain\TbAcinfo.cs" />
+    <Compile Include="Domain\TbAlarmevent.Biz.cs" />
+    <Compile Include="Domain\TbAlarmevent.cs" />
+    <Compile Include="Domain\TbBoxicpower.Biz.cs" />
+    <Compile Include="Domain\TbBoxicpower.cs" />
+    <Compile Include="Domain\TbDeviceplan.Biz.cs" />
+    <Compile Include="Domain\TbDeviceplan.cs" />
+    <Compile Include="Domain\TbDevicetype.Biz.cs" />
+    <Compile Include="Domain\TbDevicetype.cs" />
+    <Compile Include="Domain\TbDoorrfid.Biz.cs" />
+    <Compile Include="Domain\TbDoorrfid.cs" />
+    <Compile Include="Domain\TbDooruser.Biz.cs" />
+    <Compile Include="Domain\TbDooruser.cs" />
+    <Compile Include="Domain\TbEnviridata.Biz.cs" />
+    <Compile Include="Domain\TbEnviridata.cs" />
+    <Compile Include="Domain\TbEnvirievent.Biz.cs" />
+    <Compile Include="Domain\TbEnvirievent.cs" />
+    <Compile Include="Domain\TbNvrinfo.Biz.cs" />
+    <Compile Include="Domain\TbNvrinfo.cs" />
+    <Compile Include="Domain\TbRecordborrow.Biz.cs" />
+    <Compile Include="Domain\TbRecordborrow.cs" />
+    <Compile Include="Domain\TbRecordboxdoor.Biz.cs" />
+    <Compile Include="Domain\TbRecordboxdoor.cs" />
+    <Compile Include="Domain\TbRecordboxpower.Biz.cs" />
+    <Compile Include="Domain\TbRecordboxpower.cs" />
+    <Compile Include="Domain\TbRecorddoorinout.Biz.cs" />
+    <Compile Include="Domain\TbRecorddoorinout.cs" />
+    <Compile Include="Domain\TbRecorderr.Biz.cs" />
+    <Compile Include="Domain\TbRecorderr.cs" />
+    <Compile Include="Domain\TbRecordinroom.Biz.cs" />
+    <Compile Include="Domain\TbRecordinroom.cs" />
+    <Compile Include="Domain\TbRecordpower.Biz.cs" />
+    <Compile Include="Domain\TbRecordpower.cs" />
+    <Compile Include="Domain\TbRecordscrap.Biz.cs" />
+    <Compile Include="Domain\TbRecordscrap.cs" />
+    <Compile Include="Domain\TbRecordtest.Biz.cs" />
+    <Compile Include="Domain\TbRecordtest.cs" />
+    <Compile Include="Domain\TbRfidinfo.Biz.cs" />
+    <Compile Include="Domain\TbRfidinfo.cs" />
+    <Compile Include="Domain\TbRoominfo.Biz.cs" />
+    <Compile Include="Domain\TbRoominfo.cs" />
+    <Compile Include="Domain\TbSysdevice.Biz.cs" />
+    <Compile Include="Domain\TbSysdevice.cs" />
+    <Compile Include="Domain\TbSysparm.Biz.cs" />
+    <Compile Include="Domain\TbSysparm.cs" />
+    <Compile Include="Domain\TbSystemuser.Biz.cs" />
+    <Compile Include="Domain\TbSystemuser.cs" />
+    <Compile Include="Domain\TbTools.Biz.cs" />
+    <Compile Include="Domain\TbTools.cs" />
+    <Compile Include="Domain\TbTypeandname.Biz.cs" />
+    <Compile Include="Domain\TbTypeandname.cs" />
+    <Compile Include="DoorManage\frmDoorSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmDoorSet.Designer.cs">
+      <DependentUpon>frmDoorSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerIn.Designer.cs">
+      <DependentUpon>frmPowerIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerOut.Designer.cs">
+      <DependentUpon>frmPowerOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmRecordInOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmRecordInOut.Designer.cs">
+      <DependentUpon>frmRecordInOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmDoorUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmDoorUser.Designer.cs">
+      <DependentUpon>frmDoorUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmPowerManage.Designer.cs">
+      <DependentUpon>frmPowerManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoorManage\frmRecordPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoorManage\frmRecordPower.Designer.cs">
+      <DependentUpon>frmRecordPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvirManage\EnvirPlanManage.cs" />
+    <Compile Include="EnvirManage\frmEnvirData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirData.designer.cs">
+      <DependentUpon>frmEnvirData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirEvent.designer.cs">
+      <DependentUpon>frmEnvirEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirSet.designer.cs">
+      <DependentUpon>frmEnvirSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnvirManage\frmEnvirState.designer.cs">
+      <DependentUpon>frmEnvirState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExitUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExitUser.Designer.cs">
+      <DependentUpon>frmExitUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.cs">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmAboutKh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmAboutKh.Designer.cs">
+      <DependentUpon>frmAboutKh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmAlterPsd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmAlterPsd.Designer.cs">
+      <DependentUpon>frmAlterPsd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDataBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDataBack.Designer.cs">
+      <DependentUpon>frmDataBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDataClear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDataClear.Designer.cs">
+      <DependentUpon>frmDataClear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDataReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDataReturn.Designer.cs">
+      <DependentUpon>frmDataReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDeviceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDeviceManage.designer.cs">
+      <DependentUpon>frmDeviceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDevicePlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDevicePlan.Designer.cs">
+      <DependentUpon>frmDevicePlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDoorConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDoorConfig.Designer.cs">
+      <DependentUpon>frmDoorConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmDoorSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmDoorSearch.Designer.cs">
+      <DependentUpon>frmDoorSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmMarkId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmMarkId.Designer.cs">
+      <DependentUpon>frmMarkId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmOtherSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmOtherSet.Designer.cs">
+      <DependentUpon>frmOtherSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmRecordError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmRecordError.designer.cs">
+      <DependentUpon>frmRecordError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmRoomEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmRoomEdit.designer.cs">
+      <DependentUpon>frmRoomEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmRoomManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmRoomManage.designer.cs">
+      <DependentUpon>frmRoomManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmSystemSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmSystemSet.Designer.cs">
+      <DependentUpon>frmSystemSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmSystemUers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmSystemUers.Designer.cs">
+      <DependentUpon>frmSystemUers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManage\frmUsersEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManage\frmUsersEdit.Designer.cs">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestManage\frmTestCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestManage\frmTestCount.Designer.cs">
+      <DependentUpon>frmTestCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestManage\frmTestIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestManage\frmTestIn.Designer.cs">
+      <DependentUpon>frmTestIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestManage\frmTestRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestManage\frmTestRecord.Designer.cs">
+      <DependentUpon>frmTestRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxIcPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxIcPower.designer.cs">
+      <DependentUpon>frmBoxIcPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxPowerManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxPowerManage.designer.cs">
+      <DependentUpon>frmBoxPowerManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmInRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmInRoom.designer.cs">
+      <DependentUpon>frmInRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmInRoomPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmInRoomPower.designer.cs">
+      <DependentUpon>frmInRoomPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmNoteTypical.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmNoteTypical.Designer.cs">
+      <DependentUpon>frmNoteTypical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBoxOnOff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBoxOnOff.Designer.cs">
+      <DependentUpon>frmRecordBoxOnOff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmBoxPower.Designer.cs">
+      <DependentUpon>frmBoxPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmHandBorr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmHandBorr.designer.cs">
+      <DependentUpon>frmHandBorr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmHandRet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmHandRet.designer.cs">
+      <DependentUpon>frmHandRet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmProgressBar.Designer.cs">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordAlarm.Designer.cs">
+      <DependentUpon>frmRecordAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBoxPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBoxPower.Designer.cs">
+      <DependentUpon>frmRecordBoxPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordBr.Designer.cs">
+      <DependentUpon>frmRecordBr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordInRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordInRoom.Designer.cs">
+      <DependentUpon>frmRecordInRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordScrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmRecordScrap.Designer.cs">
+      <DependentUpon>frmRecordScrap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmScrap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmScrap.Designer.cs">
+      <DependentUpon>frmScrap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolMark.Designer.cs">
+      <DependentUpon>frmToolMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolName.Designer.cs">
+      <DependentUpon>frmToolName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControlNew\UCTimeInterval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCControlNew\UCTimeInterval.Designer.cs">
+      <DependentUpon>UCTimeInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffButton.designer.cs">
+      <DependentUpon>DoubleBuffButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\DoubleBufferTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\DoubleBufferTextBox.designer.cs">
+      <DependentUpon>DoubleBufferTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffLabel.designer.cs">
+      <DependentUpon>DoubleBuffLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffPanel.designer.cs">
+      <DependentUpon>DoubleBuffPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffSplitPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\DoubleBuffSplitPanel.designer.cs">
+      <DependentUpon>DoubleBuffSplitPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\LabelNew.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\LabelNew.designer.cs">
+      <DependentUpon>LabelNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCBaseVideo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCControl\UCBaseVideo.designer.cs">
+      <DependentUpon>UCBaseVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCPlayBack.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCControl\UCPlayBack.designer.cs">
+      <DependentUpon>UCPlayBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UCVideo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCControl\UCVideo.designer.cs">
+      <DependentUpon>UCVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCControl\UnichoPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCControl\UnichoPanel.designer.cs">
+      <DependentUpon>UnichoPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UDP\UDPClient.cs" />
+    <Compile Include="UDP\UDPClientManager.cs" />
+    <Compile Include="UDP\UDPs.cs" />
+    <Compile Include="VideoManage\CHCNetSDK.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolsManage\frmPlaceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmPlaceManage.Designer.cs">
+      <DependentUpon>frmPlaceManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolsManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolsManage\frmToolsManage.Designer.cs">
+      <DependentUpon>frmToolsManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoManage\frmVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoManage\frmVideo.designer.cs">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoManage\frmWebVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoManage\frmWebVideo.Designer.cs">
+      <DependentUpon>frmWebVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoManage\HikVision\NVRChannelInfo.cs" />
+    <Compile Include="VideoManage\HikVision\NvrConfigInfo.cs" />
+    <Compile Include="VideoManage\HikVision\PlayBackFileInfo.cs" />
+    <Compile Include="VideoManage\PageValidate.cs" />
+    <Compile Include="VideoManage\PlayCtrl.cs" />
+    <Compile Include="VideoManage\VideoUtil\HikPlayBackByName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoManage\VideoUtil\HikPlayBackByTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoManage\VideoUtil\UCHikVideo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoManage\VideoUtil\UCHikVideo.designer.cs">
+      <DependentUpon>UCHikVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoManage\VideoUtil\UCHikVideoEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoManage\VideoUtil\UCHikVideoEx.Designer.cs">
+      <DependentUpon>UCHikVideoEx.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseClass\WaitingBox\frmWaitingBox.resx">
+      <DependentUpon>frmWaitingBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmDoorSet.resx">
+      <DependentUpon>frmDoorSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmDoorUser.resx">
+      <DependentUpon>frmDoorUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmPowerIn.resx">
+      <DependentUpon>frmPowerIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmPowerManage.resx">
+      <DependentUpon>frmPowerManage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmPowerOut.resx">
+      <DependentUpon>frmPowerOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmRecordInOut.resx">
+      <DependentUpon>frmRecordInOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoorManage\frmRecordPower.resx">
+      <DependentUpon>frmRecordPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnvirManage\frmEnvirData.resx">
+      <DependentUpon>frmEnvirData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnvirManage\frmEnvirEvent.resx">
+      <DependentUpon>frmEnvirEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnvirManage\frmEnvirSet.resx">
+      <DependentUpon>frmEnvirSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnvirManage\frmEnvirState.resx">
+      <DependentUpon>frmEnvirState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExitUser.resx">
+      <DependentUpon>frmExitUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="SystemManage\frmAboutKh.resx">
+      <DependentUpon>frmAboutKh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmAlterPsd.resx">
+      <DependentUpon>frmAlterPsd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDataBack.resx">
+      <DependentUpon>frmDataBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDataClear.resx">
+      <DependentUpon>frmDataClear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDataReturn.resx">
+      <DependentUpon>frmDataReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDeviceManage.resx">
+      <DependentUpon>frmDeviceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDevicePlan.resx">
+      <DependentUpon>frmDevicePlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDoorConfig.resx">
+      <DependentUpon>frmDoorConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmDoorSearch.resx">
+      <DependentUpon>frmDoorSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmMarkId.resx">
+      <DependentUpon>frmMarkId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmOtherSet.resx">
+      <DependentUpon>frmOtherSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmRecordError.resx">
+      <DependentUpon>frmRecordError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmRoomEdit.resx">
+      <DependentUpon>frmRoomEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmRoomManage.resx">
+      <DependentUpon>frmRoomManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmSystemSet.resx">
+      <DependentUpon>frmSystemSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmSystemUers.resx">
+      <DependentUpon>frmSystemUers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManage\frmUsersEdit.resx">
+      <DependentUpon>frmUsersEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestManage\frmTestCount.resx">
+      <DependentUpon>frmTestCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestManage\frmTestIn.resx">
+      <DependentUpon>frmTestIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestManage\frmTestRecord.resx">
+      <DependentUpon>frmTestRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmBoxIcPower.resx">
+      <DependentUpon>frmBoxIcPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmBoxPowerManage.resx">
+      <DependentUpon>frmBoxPowerManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmInRoom.resx">
+      <DependentUpon>frmInRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmInRoomPower.resx">
+      <DependentUpon>frmInRoomPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmNoteTypical.resx">
+      <DependentUpon>frmNoteTypical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordBoxOnOff.resx">
+      <DependentUpon>frmRecordBoxOnOff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmBoxPower.resx">
+      <DependentUpon>frmBoxPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmHandBorr.resx">
+      <DependentUpon>frmHandBorr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmHandRet.resx">
+      <DependentUpon>frmHandRet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmProgressBar.resx">
+      <DependentUpon>frmProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordAlarm.resx">
+      <DependentUpon>frmRecordAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordBoxPower.resx">
+      <DependentUpon>frmRecordBoxPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordBr.resx">
+      <DependentUpon>frmRecordBr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordInRoom.resx">
+      <DependentUpon>frmRecordInRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmRecordScrap.resx">
+      <DependentUpon>frmRecordScrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmScrap.resx">
+      <DependentUpon>frmScrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ToolsManage\frmPlaceManage.resx">
+      <DependentUpon>frmPlaceManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmToolMark.resx">
+      <DependentUpon>frmToolMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmToolName.resx">
+      <DependentUpon>frmToolName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolsManage\frmToolsManage.resx">
+      <DependentUpon>frmToolsManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCControlNew\UCTimeInterval.resx">
+      <DependentUpon>UCTimeInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCControl\UCBaseVideo.resx">
+      <DependentUpon>UCBaseVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCControl\UCPlayBack.resx">
+      <DependentUpon>UCPlayBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCControl\UCVideo.resx">
+      <DependentUpon>UCVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoManage\frmVideo.resx">
+      <DependentUpon>frmVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoManage\frmWebVideo.resx">
+      <DependentUpon>frmWebVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="132.ico" />
+    <Content Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="VideoManage\VideoUtil\UCHikVideo.resx">
+      <DependentUpon>UCHikVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_return.gif" />
+    <None Include="Resources\wait1.gif" />
+    <None Include="Resources\wait2.gif" />
+    <None Include="Resources\wait4.gif" />
+    <None Include="Resources\wait5.gif" />
+    <None Include="Resources\wait6.gif" />
+    <None Include="Resources\快进.png" />
+    <None Include="Resources\慢放.png" />
+    <None Include="Resources\切换.png" />
+    <None Include="Resources\停止.png" />
+    <None Include="Resources\1宫格.jpg" />
+    <None Include="Resources\2宫格1.jpg" />
+    <None Include="Resources\2宫格2.jpg" />
+    <None Include="Resources\4宫格.jpg" />
+    <None Include="Resources\9宫格.jpg" />
+    <None Include="Resources\16宫格.jpg" />
+    <None Include="Resources\播放.png" />
+    <None Include="Resources\单帧.png" />
+    <None Include="Resources\恢复正常.png" />
+    <None Include="Resources\14.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\LegendHS.png" />
+    <None Include="Resources\return.png" />
+    <None Include="Resources\add.gif" />
+    <None Include="Resources\buttonX1.png" />
+    <None Include="Resources\cancel.gif" />
+    <None Include="Resources\clear.gif" />
+    <None Include="Resources\confirm.gif" />
+    <None Include="Resources\delete.gif" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\down_move.png" />
+    <None Include="Resources\edit.gif" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\export.gif" />
+    <None Include="Resources\放大.png" />
+    <None Include="Resources\缩小.png" />
+    <None Include="Resources\抓图.png" />
+    <Content Include="comp_web.ico" />
+    <Content Include="Voice\借出.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice\工器具借出.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice\工器具借出超时.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice\工器具归还.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice\归还.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Voice\欢迎.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="zkemkeeper">
+      <Guid>{FE9DED34-E159-408E-8490-B720A5E632C7}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

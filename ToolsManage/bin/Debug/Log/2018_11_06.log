@@ -1,0 +1,1055 @@
+﻿#Software: ToolsManage
+#ProcessID: 10744
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,527M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+11:20:38.980 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+11:20:38.982 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+11:20:38.982 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+11:20:38.982 10 N - ToolsManage Copyright © Lenovo 2015
+11:20:38.982 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+11:20:38.982 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+11:20:47.975 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+11:20:47.978 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+11:20:47.987 10 N - 集中初始化表架构时没赶上，现在补上！
+11:20:47.988 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+11:20:48.007 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 11032
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,556M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+12:48:25.672 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+12:48:25.674 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+12:48:25.674 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+12:48:25.674 10 N - ToolsManage Copyright © Lenovo 2015
+12:48:25.674 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+12:48:25.675 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+12:48:26.257 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+12:48:26.258 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:48:26.265 10 N - 集中初始化表架构时没赶上，现在补上！
+12:48:26.266 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+12:48:26.279 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+12:48:59.301 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:48:59.331 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+12:49:14.478 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:50:01.115 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:50:01.147 10 N - [3]GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:50:57.396 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:50:57.443 10 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时151,169ms
+12:50:57.447 10 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+12:50:57.954 10 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:50:57.954 10 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:50:57.955 10 N - ToolsManage待检查表架构的实体个数：25
+12:50:57.955 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+12:51:30.978 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:51:46.546 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:51:46.573 10 N - [3]GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+
+#Software: ToolsManage
+#ProcessID: 5124
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,680M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+12:53:03.194 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+12:53:03.196 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+12:53:03.196 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+12:53:03.197 10 N - ToolsManage Copyright © Lenovo 2015
+12:53:03.197 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+12:53:03.197 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+12:53:03.740 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+12:53:03.742 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:53:03.749 10 N - 集中初始化表架构时没赶上，现在补上！
+12:53:03.750 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+12:53:03.763 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+12:53:36.770 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:53:36.798 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+12:53:52.374 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:54:42.803 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:54:42.842 10 N - [3]GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:54:58.428 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:54:58.465 10 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时114,714ms
+12:54:58.467 10 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+12:54:58.908 10 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:54:58.908 10 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:54:58.908 10 N - ToolsManage待检查表架构的实体个数：25
+12:54:58.908 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+
+#Software: ToolsManage
+#ProcessID: 11596
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,631M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+12:55:22.454  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+12:55:22.456  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+12:55:22.457  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+12:55:22.457  9 N - ToolsManage Copyright © Lenovo 2015
+12:55:22.457  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+12:55:22.457  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+12:55:22.966  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+12:55:22.967  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:55:22.974  9 N - 集中初始化表架构时没赶上，现在补上！
+12:55:22.975  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+12:55:22.989  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+12:55:56.040  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:55:56.072  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+12:56:11.629  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:58:13.907  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:58:13.944  9 N - [3]GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:58:29.523  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+12:58:29.552  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时186,576ms
+12:58:29.554  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+12:58:29.899  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:58:29.899  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+12:58:29.900  9 N - ToolsManage待检查表架构的实体个数：25
+12:58:29.900  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+
+#Software: ToolsManage
+#ProcessID: 11360
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,682M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:01:25.624 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:01:25.626 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:01:25.626 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:01:25.626 10 N - ToolsManage Copyright © Lenovo 2015
+13:01:25.626 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:01:25.626 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:01:26.112 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:01:26.114 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:01:26.120 10 N - 集中初始化表架构时没赶上，现在补上！
+13:01:26.121 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:01:26.134 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 7360
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,686M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:02:20.668 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:02:20.669 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:02:20.669 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:02:20.670 10 N - ToolsManage Copyright © Lenovo 2015
+13:02:20.670 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:02:20.670 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:02:21.178 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:02:21.179 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:02:21.188 10 N - 集中初始化表架构时没赶上，现在补上！
+13:02:21.189 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:02:21.202 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+13:03:09.285 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:03:09.315 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:03:24.874 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:04:37.691 10 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:04:37.722 10 N - [3]GetSchema(MetaDataCollections)异常重试！在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接),连接字符串 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+
+#Software: ToolsManage
+#ProcessID: 11764
+#AppDomain: ToolsManage.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,824M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:06:06.799  1 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:06:06.802  1 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:06:06.803  1 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:06:06.803  1 N - ToolsManage Copyright © Lenovo 2015
+13:06:06.803  1 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:06:06.803  1 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:06:07.245  1 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:06:07.247  1 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.exe_ToolsManage
+13:06:07.253  1 N - 集中初始化表架构时没赶上，现在补上！
+13:06:07.253  1 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:06:07.266  1 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+13:06:40.159  1 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.exe_ToolsManage
+13:06:40.170  1 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:06:55.507  1 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.exe_ToolsManage
+
+#Software: ToolsManage
+#ProcessID: 14628
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,798M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:07:18.368  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:07:18.370  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:07:18.370  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:07:18.370  9 N - ToolsManage Copyright © Lenovo 2015
+13:07:18.370  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:07:18.370  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:07:18.868  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:07:18.869  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:07:18.877  9 N - 集中初始化表架构时没赶上，现在补上！
+13:07:18.877  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:07:18.891  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 15232
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,727M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:08:04.355  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:08:04.357  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:08:04.357  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:08:04.357  9 N - ToolsManage Copyright © Lenovo 2015
+13:08:04.357  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:08:04.358  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:08:04.856  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:08:04.857  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:08:04.864  9 N - 集中初始化表架构时没赶上，现在补上！
+13:08:04.865  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:08:04.878  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+13:08:20.024  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:08:20.057  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:08:53.053  9 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+
+#Software: ToolsManage
+#ProcessID: 13508
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,718M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:09:18.755 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:09:18.757 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:09:18.757 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:09:18.758 10 N - ToolsManage Copyright © Lenovo 2015
+13:09:18.758 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:09:18.758 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:09:19.272 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:09:19.274 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:09:19.281 10 N - 集中初始化表架构时没赶上，现在补上！
+13:09:19.282 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:09:19.296 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 14112
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,788M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:23:58.448 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:23:58.450 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:23:58.450 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:23:58.451 10 N - ToolsManage Copyright © Lenovo 2015
+13:23:58.451 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:23:58.451 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:23:58.945 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:23:58.947 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:23:58.953 10 N - 集中初始化表架构时没赶上，现在补上！
+13:23:58.954 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:23:58.968 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 5452
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 6,447M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:43:28.950 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:43:28.955 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:43:28.955 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:43:28.955 10 N - ToolsManage Copyright © Lenovo 2015
+13:43:28.955 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:43:28.956 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:43:36.290 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:43:36.292 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:43:36.302 10 N - 集中初始化表架构时没赶上，现在补上！
+13:43:36.303 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:43:36.328 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 11780
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 6,192M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:44:28.835  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:44:28.837  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:44:28.837  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:44:28.837  9 N - ToolsManage Copyright © Lenovo 2015
+13:44:28.837  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:44:28.838  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:44:29.337  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:44:29.338  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:44:29.345  9 N - 集中初始化表架构时没赶上，现在补上！
+13:44:29.345  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:44:29.358  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 11760
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,976M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:45:56.758  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:45:56.760  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:45:56.760  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:45:56.761  9 N - ToolsManage Copyright © Lenovo 2015
+13:45:56.761  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:45:56.761  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:45:57.348  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:45:57.350  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:45:57.357  9 N - 集中初始化表架构时没赶上，现在补上！
+13:45:57.358  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:45:57.376  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 10792
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,949M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:47:46.851  7 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:47:46.853  7 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:47:46.853  7 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:47:46.853  7 N - ToolsManage Copyright © Lenovo 2015
+13:47:46.853  7 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:47:46.853  7 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:47:47.329  7 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:47:47.331  7 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:47:47.337  7 N - 集中初始化表架构时没赶上，现在补上！
+13:47:47.338  7 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:47:47.351  7 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 2140
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,987M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:50:13.431  7 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:50:13.433  7 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:50:13.433  7 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:50:13.433  7 N - ToolsManage Copyright © Lenovo 2015
+13:50:13.433  7 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:50:13.433  7 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:50:13.935  7 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:50:13.937  7 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:50:13.944  7 N - 集中初始化表架构时没赶上，现在补上！
+13:50:13.945  7 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:50:13.959  7 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+13:50:46.987  7 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:50:47.015  7 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:51:02.580  7 N - Open错误：[在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)]Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+
+#Software: ToolsManage
+#ProcessID: 212
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 6,011M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:51:55.439  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:51:55.441  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:51:55.441  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:51:55.441  9 N - ToolsManage Copyright © Lenovo 2015
+13:51:55.441  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:51:55.441  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:51:55.954  9 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:51:55.957  9 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:51:55.966  9 N - 集中初始化表架构时没赶上，现在补上！
+13:51:55.967  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:51:55.980  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 11388
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,927M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:57:13.830 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:57:13.832 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:57:13.832 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:57:13.832 10 N - ToolsManage Copyright © Lenovo 2015
+13:57:13.832 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:57:13.832 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:57:14.328 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:57:14.331 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:57:14.337 10 N - 集中初始化表架构时没赶上，现在补上！
+13:57:14.338 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:57:14.356 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 7992
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,782M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:59:44.238 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:59:44.240 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:59:44.240 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:59:44.240 10 N - ToolsManage Copyright © Lenovo 2015
+13:59:44.240 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:59:44.241 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:59:44.764 10 N - ToolsManage 设定 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:59:44.766 10 N - ToolsManage 格式 Data Source=192.168.1.105;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:59:44.774 10 N - 集中初始化表架构时没赶上，现在补上！
+13:59:44.775 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:59:44.792 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+
+#Software: ToolsManage
+#ProcessID: 9628
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,723M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:03:02.661  7 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:03:02.662  7 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:03:02.663  7 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:03:02.663  7 N - ToolsManage Copyright © Lenovo 2015
+14:03:02.663  7 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:03:02.663  7 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:03:03.134  7 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:03:03.135  7 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:03:03.142  7 N - 集中初始化表架构时没赶上，现在补上！
+14:03:03.143  7 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:03:03.156  7 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:03:03.174  7 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:03:03.270  7 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:03:03.305  7 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:03:03.310  7 N - [ToolsManage]GetSchema("Tables")
+14:03:03.326  7 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:03:03.483  7 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:03:03.502  7 N - [ToolsManage]GetSchema("Columns")
+14:03:03.539  7 N - [ToolsManage]GetSchema("Indexes")
+14:03:03.559  7 N - [ToolsManage]GetSchema("IndexColumns")
+14:03:03.607  7 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时462ms
+14:03:03.608  7 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:03:03.881  7 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:03:03.881  7 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:03:03.881  7 N - ToolsManage待检查表架构的实体个数：25
+14:03:03.882  7 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:03:03.882  7 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:03:03.934  7 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:03:03.969  7 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时361ms
+14:03:03.974  7 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 12088
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,675M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:08:11.454  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:08:11.455  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:08:11.456  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:08:11.456  8 N - ToolsManage Copyright © Lenovo 2015
+14:08:11.456  8 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:08:11.456  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:08:11.987  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:08:11.988  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:08:11.995  8 N - 集中初始化表架构时没赶上，现在补上！
+14:08:11.996  8 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:08:12.009  8 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:08:12.027  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:08:12.053  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:08:12.058  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:08:12.058  8 N - [ToolsManage]GetSchema("Tables")
+14:08:12.059  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:08:12.103  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:08:12.107  8 N - [ToolsManage]GetSchema("Columns")
+14:08:12.121  8 N - [ToolsManage]GetSchema("Indexes")
+14:08:12.127  8 N - [ToolsManage]GetSchema("IndexColumns")
+14:08:12.157  8 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时160ms
+14:08:12.158  8 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:08:12.466  8 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:08:12.466  8 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:08:12.466  8 N - ToolsManage待检查表架构的实体个数：25
+14:08:12.466  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:08:12.467  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:08:12.509  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:08:12.536  8 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时378ms
+14:08:12.540  8 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 5340
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,864M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:10:20.272  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:10:20.274  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:10:20.274  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:10:20.274  9 N - ToolsManage Copyright © Lenovo 2015
+14:10:20.274  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:10:20.274  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:10:20.772  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:10:20.774  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:10:20.781  9 N - 集中初始化表架构时没赶上，现在补上！
+14:10:20.782  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:10:20.795  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:10:20.811  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:10:20.837  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:10:20.842  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:10:20.843  9 N - [ToolsManage]GetSchema("Tables")
+14:10:20.844  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:10:20.885  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:10:20.889  9 N - [ToolsManage]GetSchema("Columns")
+14:10:20.906  9 N - [ToolsManage]GetSchema("Indexes")
+14:10:20.912  9 N - [ToolsManage]GetSchema("IndexColumns")
+14:10:20.947  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时165ms
+14:10:20.950  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:10:21.239  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:10:21.239  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:10:21.240  9 N - ToolsManage待检查表架构的实体个数：25
+14:10:21.240  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:10:21.240  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:10:21.285  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:10:21.302  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时353ms
+14:10:21.307  9 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 10664
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,822M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:20:24.771  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:20:24.772  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:20:24.773  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:20:24.773  9 N - ToolsManage Copyright © Lenovo 2015
+14:20:24.773  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:20:24.773  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:20:25.271  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:20:25.272  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:20:25.279  9 N - 集中初始化表架构时没赶上，现在补上！
+14:20:25.280  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:20:25.293  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:20:25.310  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:20:25.340  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:20:25.346  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:20:25.347  9 N - [ToolsManage]GetSchema("Tables")
+14:20:25.348  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:20:25.388  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:20:25.392  9 N - [ToolsManage]GetSchema("Columns")
+14:20:25.406  9 N - [ToolsManage]GetSchema("Indexes")
+14:20:25.412  9 N - [ToolsManage]GetSchema("IndexColumns")
+14:20:25.441  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时160ms
+14:20:25.442  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:20:25.760  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:20:25.760  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:20:25.760  9 N - ToolsManage待检查表架构的实体个数：25
+14:20:25.760  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:20:25.761  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:20:25.802  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:20:25.823  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时381ms
+14:20:25.828  9 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 12568
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,781M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:23:38.153  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:23:38.155  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:23:38.155  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:23:38.155  8 N - ToolsManage Copyright © Lenovo 2015
+14:23:38.155  8 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:23:38.155  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:23:38.673  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:23:38.674  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:23:38.681  8 N - 集中初始化表架构时没赶上，现在补上！
+14:23:38.682  8 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:23:38.696  8 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:23:38.712  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:23:38.740  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:23:38.745  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:23:38.746  8 N - [ToolsManage]GetSchema("Tables")
+14:23:38.747  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:23:38.787  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:23:38.791  8 N - [ToolsManage]GetSchema("Columns")
+14:23:38.805  8 N - [ToolsManage]GetSchema("Indexes")
+14:23:38.813  8 N - [ToolsManage]GetSchema("IndexColumns")
+14:23:38.849  8 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时166ms
+14:23:38.851  8 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:23:39.163  8 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:23:39.163  8 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:23:39.163  8 N - ToolsManage待检查表架构的实体个数：25
+14:23:39.163  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:23:39.164  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:23:39.203  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:23:39.223  8 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时371ms
+14:23:39.227  8 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 5404
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,833M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:25:39.810  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:25:39.812  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:25:39.812  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:25:39.812  8 N - ToolsManage Copyright © Lenovo 2015
+14:25:39.812  8 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:25:39.812  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:25:40.319  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:25:40.321  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:25:40.327  8 N - 集中初始化表架构时没赶上，现在补上！
+14:25:40.328  8 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:25:40.342  8 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:25:40.363  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:25:40.396  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:25:40.401  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:25:40.402  8 N - [ToolsManage]GetSchema("Tables")
+14:25:40.403  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:25:40.442  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:25:40.446  8 N - [ToolsManage]GetSchema("Columns")
+14:25:40.463  8 N - [ToolsManage]GetSchema("Indexes")
+14:25:40.470  8 N - [ToolsManage]GetSchema("IndexColumns")
+14:25:40.500  8 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时170ms
+14:25:40.502  8 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:25:40.809  8 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:25:40.809  8 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:25:40.810  8 N - ToolsManage待检查表架构的实体个数：25
+14:25:40.810  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:25:40.810  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:25:40.850  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:25:40.869  8 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时368ms
+14:25:40.874  8 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 1632
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,632M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+14:49:37.194 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+14:49:37.196 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+14:49:37.196 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+14:49:37.196 10 N - ToolsManage Copyright © Lenovo 2015
+14:49:37.196 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+14:49:37.196 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+14:49:37.695 10 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+14:49:37.697 10 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+14:49:37.703 10 N - 集中初始化表架构时没赶上，现在补上！
+14:49:37.704 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+14:49:37.717 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+14:49:37.736 10 N - [ToolsManage]GetSchema("MetaDataCollections")
+14:49:37.778 10 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+14:49:37.785 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:49:37.787 10 N - [ToolsManage]GetSchema("Tables")
+14:49:37.788 10 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:49:37.829 10 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:49:37.833 10 N - [ToolsManage]GetSchema("Columns")
+14:49:37.849 10 N - [ToolsManage]GetSchema("Indexes")
+14:49:37.855 10 N - [ToolsManage]GetSchema("IndexColumns")
+14:49:37.889 10 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时184ms
+14:49:37.891 10 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+14:49:38.238 10 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:49:38.238 10 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+14:49:38.238 10 N - ToolsManage待检查表架构的实体个数：25
+14:49:38.238 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+14:49:38.239 10 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+14:49:38.283 10 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+14:49:38.303 10 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时412ms
+14:49:38.307 10 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 2404
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,452M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:35:25.941  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+15:35:25.944  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+15:35:25.945  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+15:35:25.945  9 N - ToolsManage Copyright © Lenovo 2015
+15:35:25.945  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+15:35:25.945  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+15:35:26.560  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+15:35:26.562  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+15:35:26.569  9 N - 集中初始化表架构时没赶上，现在补上！
+15:35:26.570  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+15:35:26.583  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+15:35:26.600  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+15:35:26.631  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+15:35:26.636  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:35:26.637  9 N - [ToolsManage]GetSchema("Tables")
+15:35:26.638  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:35:26.677  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:35:26.681  9 N - [ToolsManage]GetSchema("Columns")
+15:35:26.695  9 N - [ToolsManage]GetSchema("Indexes")
+15:35:26.701  9 N - [ToolsManage]GetSchema("IndexColumns")
+15:35:26.730  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时160ms
+15:35:26.731  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+15:35:27.055  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:35:27.055  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:35:27.056  9 N - ToolsManage待检查表架构的实体个数：25
+15:35:27.056  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:35:27.056  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:35:27.101  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:35:27.123  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时391ms
+15:35:27.127  9 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 13476
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,395M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:36:23.260  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+15:36:23.261  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+15:36:23.262  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+15:36:23.262  9 N - ToolsManage Copyright © Lenovo 2015
+15:36:23.262  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+15:36:23.262  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+15:36:23.746  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+15:36:23.748  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+15:36:23.755  9 N - 集中初始化表架构时没赶上，现在补上！
+15:36:23.756  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+15:36:23.771  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+15:36:23.788  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+15:36:23.813  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+15:36:23.818  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:36:23.819  9 N - [ToolsManage]GetSchema("Tables")
+15:36:23.820  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:36:23.864  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:36:23.870  9 N - [ToolsManage]GetSchema("Columns")
+15:36:23.891  9 N - [ToolsManage]GetSchema("Indexes")
+15:36:23.897  9 N - [ToolsManage]GetSchema("IndexColumns")
+15:36:23.927  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时171ms
+15:36:23.928  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+15:36:24.215  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:36:24.215  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:36:24.215  9 N - ToolsManage待检查表架构的实体个数：25
+15:36:24.215  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:36:24.216  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:36:24.256  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:36:24.275  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时347ms
+15:36:24.280  9 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 5340
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,157M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:37:18.457 11 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+15:37:18.459 11 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+15:37:18.459 11 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+15:37:18.459 11 N - ToolsManage Copyright © Lenovo 2015
+15:37:18.459 11 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+15:37:18.459 11 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+15:37:18.942 11 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+15:37:18.943 11 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+15:37:18.950 11 N - 集中初始化表架构时没赶上，现在补上！
+15:37:18.951 11 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+15:37:18.963 11 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+15:37:18.980 11 N - [ToolsManage]GetSchema("MetaDataCollections")
+15:37:19.008 11 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+15:37:19.013 11 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:37:19.014 11 N - [ToolsManage]GetSchema("Tables")
+15:37:19.015 11 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:37:19.069 11 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:37:19.110 11 N - [ToolsManage]GetSchema("Columns")
+15:37:19.124 11 N - [ToolsManage]GetSchema("Indexes")
+15:37:19.132 11 N - [ToolsManage]GetSchema("IndexColumns")
+15:37:19.165 11 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时214ms
+15:37:19.166 11 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+15:37:19.456 11 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:37:19.456 11 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:37:19.457 11 N - ToolsManage待检查表架构的实体个数：25
+15:37:19.457 11 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:37:19.457 11 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:37:19.516 11 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:37:19.540 11 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时375ms
+15:37:19.547 11 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 8732
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,241M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:41:45.331 10 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+15:41:45.334 10 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+15:41:45.334 10 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+15:41:45.334 10 N - ToolsManage Copyright © Lenovo 2015
+15:41:45.334 10 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+15:41:45.335 10 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+15:41:45.832 10 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+15:41:45.834 10 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+15:41:45.840 10 N - 集中初始化表架构时没赶上，现在补上！
+15:41:45.841 10 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+15:41:45.855 10 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+15:41:45.871 10 N - [ToolsManage]GetSchema("MetaDataCollections")
+15:41:45.900 10 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+15:41:45.905 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:41:45.906 10 N - [ToolsManage]GetSchema("Tables")
+15:41:45.907 10 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:41:45.947 10 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:41:45.951 10 N - [ToolsManage]GetSchema("Columns")
+15:41:45.968 10 N - [ToolsManage]GetSchema("Indexes")
+15:41:45.974 10 N - [ToolsManage]GetSchema("IndexColumns")
+15:41:46.011 10 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时169ms
+15:41:46.012 10 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+15:41:46.324 10 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:41:46.324 10 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:41:46.324 10 N - ToolsManage待检查表架构的实体个数：25
+15:41:46.324 10 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:41:46.325 10 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:41:46.364 10 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:41:46.385 10 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时373ms
+15:41:46.390 10 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 948
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 5,318M/11,985M
+#CPU: 4
+#Date: 2018-11-06
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+15:47:59.695  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+15:47:59.697  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+15:47:59.697  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+15:47:59.697  9 N - ToolsManage Copyright © Lenovo 2015
+15:47:59.697  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+15:47:59.698  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+15:48:00.195  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+15:48:00.197  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+15:48:00.205  9 N - 集中初始化表架构时没赶上，现在补上！
+15:48:00.206  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+15:48:00.220  9 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+15:48:00.236  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+15:48:00.264  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+15:48:00.269  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:48:00.270  9 N - [ToolsManage]GetSchema("Tables")
+15:48:00.271  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:48:00.312  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:48:00.316  9 N - [ToolsManage]GetSchema("Columns")
+15:48:00.330  9 N - [ToolsManage]GetSchema("Indexes")
+15:48:00.336  9 N - [ToolsManage]GetSchema("IndexColumns")
+15:48:00.368  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时161ms
+15:48:00.370  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+15:48:00.687  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:48:00.687  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+15:48:00.687  9 N - ToolsManage待检查表架构的实体个数：25
+15:48:00.687  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+15:48:00.688  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+15:48:00.732  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+15:48:00.757  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时388ms
+15:48:00.762  9 N - Select * From tb_RoomInfo Order By ID ASC

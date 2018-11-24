@@ -1,0 +1,175 @@
+﻿#Software: ToolsManage
+#ProcessID: 11776
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, shuguang/DESKTOP-GSLKHML
+#Memory: 6,541M/11,969M
+#CPU: 4
+#Date: 2018-11-24
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:24:32.683  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+10:24:32.685  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+10:24:32.686  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+10:24:32.686  8 N - ToolsManage Copyright © Lenovo 2015
+10:24:32.686  8 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+10:24:32.686  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+10:24:33.729  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+10:24:33.731  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+10:24:33.738  8 N - 集中初始化表架构时没赶上，现在补上！
+10:24:33.739  8 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+10:24:33.753  8 N - System.Data.SqlClient.Sql驱动C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+10:24:33.774  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+10:24:33.795  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+10:24:33.811  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:24:33.817  8 N - [ToolsManage]GetSchema("Tables")
+10:24:33.826  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:24:33.939  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:24:33.951  8 N - [ToolsManage]GetSchema("Columns")
+10:24:33.979  8 N - [ToolsManage]GetSchema("Indexes")
+10:24:33.999  8 N - [ToolsManage]GetSchema("IndexColumns")
+10:24:34.049  8 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时309ms
+10:24:34.051  8 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+10:24:34.338  8 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:24:34.338  8 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:24:34.339  8 N - ToolsManage待检查表架构的实体个数：25
+10:24:34.339  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:24:34.340  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:24:34.389  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:24:34.410  8 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时359ms
+10:24:34.415  8 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 15644
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, shuguang/DESKTOP-GSLKHML
+#Memory: 6,359M/11,969M
+#CPU: 4
+#Date: 2018-11-24
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:27:08.285  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+10:27:08.287  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+10:27:08.287  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+10:27:08.287  9 N - ToolsManage Copyright © Lenovo 2015
+10:27:08.287  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+10:27:08.287  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+10:27:08.929  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+10:27:08.931  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+10:27:08.938  9 N - 集中初始化表架构时没赶上，现在补上！
+10:27:08.939  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+10:27:08.953  9 N - System.Data.SqlClient.Sql驱动C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+10:27:09.024  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+10:27:09.048  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+10:27:09.054  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:27:09.056  9 N - [ToolsManage]GetSchema("Tables")
+10:27:09.057  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:27:09.107  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:27:09.111  9 N - [ToolsManage]GetSchema("Columns")
+10:27:09.125  9 N - [ToolsManage]GetSchema("Indexes")
+10:27:09.131  9 N - [ToolsManage]GetSchema("IndexColumns")
+10:27:09.163  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时223ms
+10:27:09.165  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+10:27:12.841  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:27:12.841  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:27:12.841  9 N - ToolsManage待检查表架构的实体个数：25
+10:27:12.841  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:27:12.842  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:27:12.883  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:27:12.908  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时3,743ms
+10:27:12.915  9 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 15420
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, shuguang/DESKTOP-GSLKHML
+#Memory: 6,542M/11,969M
+#CPU: 4
+#Date: 2018-11-24
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+10:32:18.152  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+10:32:18.154  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+10:32:18.154  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+10:32:18.154  8 N - ToolsManage Copyright © Lenovo 2015
+10:32:18.154  8 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+10:32:18.155  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+10:32:25.190  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+10:32:25.192  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+10:32:25.200  8 N - 集中初始化表架构时没赶上，现在补上！
+10:32:25.200  8 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+10:32:25.215  8 N - System.Data.SqlClient.Sql驱动C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+10:32:25.238  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+10:32:25.257  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+10:32:25.262  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:32:25.264  8 N - [ToolsManage]GetSchema("Tables")
+10:32:25.265  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:32:25.305  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:32:25.310  8 N - [ToolsManage]GetSchema("Columns")
+10:32:25.325  8 N - [ToolsManage]GetSchema("Indexes")
+10:32:25.331  8 N - [ToolsManage]GetSchema("IndexColumns")
+10:32:25.365  8 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时164ms
+10:32:25.367  8 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+10:32:25.770  8 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:32:25.770  8 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+10:32:25.770  8 N - ToolsManage待检查表架构的实体个数：25
+10:32:25.770  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+10:32:25.771  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+10:32:25.822  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+10:32:25.845  8 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时478ms
+10:32:25.850  8 N - Select * From tb_RoomInfo Order By ID ASC
+
+#Software: ToolsManage
+#ProcessID: 1604
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\浙江库房\三门库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, shuguang/DESKTOP-GSLKHML
+#Memory: 5,751M/11,969M
+#CPU: 4
+#Date: 2018-11-24
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+13:02:05.400  9 N - NewLife.Core v6.6.2018.0211 Build 2018-06-14 10:56:08 .NET Framework 4
+13:02:05.402  9 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+13:02:05.402  9 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+13:02:05.402  9 N - ToolsManage Copyright © Lenovo 2015
+13:02:05.402  9 N - XCode v9.6.2017.0808 Build 2018-06-14 10:56:10 .NET Framework 4
+13:02:05.402  9 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+13:02:06.069  9 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+13:02:06.072  9 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+13:02:06.089  9 N - 集中初始化表架构时没赶上，现在补上！
+13:02:06.091  9 N - 开始同步检查表[TbRoominfo/SqlServer]的数据表架构……
+13:02:06.108  9 N - System.Data.SqlClient.Sql驱动C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+13:02:06.131  9 N - [ToolsManage]GetSchema("MetaDataCollections")
+13:02:06.156  9 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+13:02:06.161  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:02:06.163  9 N - [ToolsManage]GetSchema("Tables")
+13:02:06.165  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+13:02:06.223  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+13:02:06.227  9 N - [ToolsManage]GetSchema("Columns")
+13:02:06.242  9 N - [ToolsManage]GetSchema("Indexes")
+13:02:06.248  9 N - [ToolsManage]GetSchema("IndexColumns")
+13:02:06.281  9 N - 检查表[TbRoominfo/SqlServer]的数据表架构耗时190ms
+13:02:06.283  9 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+13:02:06.637  9 N - [ToolsManage]的所有实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+13:02:06.637  9 N - [ToolsManage]需要检查架构的实体类（26个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDeviceplan,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+13:02:06.638  9 N - ToolsManage待检查表架构的实体个数：25
+13:02:06.638  9 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+13:02:06.638  9 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+13:02:06.682  9 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+13:02:06.706  9 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时423ms
+13:02:06.710  9 N - Select * From tb_RoomInfo Order By ID ASC

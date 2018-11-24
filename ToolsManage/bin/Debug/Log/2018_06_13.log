@@ -1,0 +1,123 @@
+﻿#Software: ToolsManage
+#ProcessID: 18804
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,615M/11,985M
+#CPU: 4
+#Date: 2018-06-13
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:12:58.513  7 N - NewLife.Core v6.6.2018.0211 Build 2018-06-13 13:29:16 .NET Framework 4
+16:12:58.516  7 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+16:12:58.517  7 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+16:12:58.517  7 N - ToolsManage Copyright © Lenovo 2015
+16:12:58.517  7 N - Setting的配置文件Config\Core.config 不存在，准备用默认配置覆盖！
+16:12:58.550  7 N - Setting的配置文件Config\XCode.config 不存在，准备用默认配置覆盖！
+16:12:58.591  7 N - XCode v9.6.2017.0808 Build 2018-06-13 13:29:18 .NET Framework 4
+16:12:58.592  7 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+16:12:59.146  7 N - XCode.Setting的配置文件F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\bin\Debug\Config\XCode.config有更新，重新加载配置！
+16:12:59.241  7 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+16:12:59.243  7 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+16:12:59.244  7 N - 集中初始化表架构时没赶上，现在补上！
+16:12:59.246  7 N - 开始同步检查表[TbSysdevice/SqlServer]的数据表架构……
+16:12:59.273  7 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+16:12:59.408  7 N - [ToolsManage]GetSchema("MetaDataCollections")
+16:12:59.472  7 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+16:12:59.502  7 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+16:12:59.504  7 N - [ToolsManage]GetSchema("Tables")
+16:12:59.506  7 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+16:12:59.565  7 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+16:12:59.570  7 N - [ToolsManage]GetSchema("Columns")
+16:12:59.592  7 N - [ToolsManage]GetSchema("Indexes")
+16:12:59.600  7 N - [ToolsManage]GetSchema("IndexColumns")
+16:12:59.652  7 N - 检查表[TbSysdevice/SqlServer]的数据表架构耗时405ms
+16:12:59.654  7 N - 开始检查连接[ToolsManage/SqlServer]的数据库架构……
+16:13:00.085  7 N - [ToolsManage]的所有实体类（25个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+16:13:00.085  7 N - [ToolsManage]需要检查架构的实体类（25个）：TbAcinfo,TbAlarmevent,TbBoxicpower,TbDevicetype,TbDoorrfid,TbDooruser,TbEnviridata,TbEnvirievent,TbNvrinfo,TbRecordborrow,TbRecordboxdoor,TbRecordboxpower,TbRecorddoorinout,TbRecorderr,TbRecordinroom,TbRecordpower,TbRecordscrap,TbRecordtest,TbRfidinfo,TbRoominfo,TbSysdevice,TbSysparm,TbSystemuser,TbTools,TbTypeandname
+16:13:00.086  7 N - ToolsManage待检查表架构的实体个数：24
+16:13:00.086  7 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+16:13:00.086  7 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+16:13:00.130  7 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+16:13:00.152  7 N - 检查连接[ToolsManage/SqlServer]的数据库架构耗时498ms
+16:13:00.163  7 N - Select Top 65535 * From eventinfo Order By id asc
+16:13:00.478  7 N - XCode.Exceptions.XSqlException: 对象名 'eventinfo' 无效。[SQL:Select Top 65535 * From eventinfo Order By id asc][DB:ToolsManage/SqlServer] ---> System.Data.SqlClient.SqlException: 对象名 'eventinfo' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   在 XCode.DataAccessLayer.DbSession.Query(DbCommand cmd) 位置 E:\c# test\XCoderORM\XCode\DataAccessLayer\Common\DbSession.cs:行号 307
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 XCode.DataAccessLayer.DbSession.Query(DbCommand cmd) 位置 E:\c# test\XCoderORM\XCode\DataAccessLayer\Common\DbSession.cs:行号 315
+   在 XCode.DataAccessLayer.DbSession.Query(String sql, CommandType type, IDataParameter[] ps) 位置 E:\c# test\XCoderORM\XCode\DataAccessLayer\Common\DbSession.cs:行号 282
+   在 XCode.DataAccessLayer.DAL.Select(SelectBuilder builder, Int64 startRowIndex, Int64 maximumRows) 位置 E:\c# test\XCoderORM\XCode\DataAccessLayer\DAL_DbOperate.cs:行号 58
+   在 XCode.EntitySession`1.Query(SelectBuilder builder, Int64 startRowIndex, Int64 maximumRows) 位置 E:\c# test\XCoderORM\XCode\Entity\EntitySession.cs:行号 596
+   在 ToolsManage.Domain.TbSysdevice.FindListBySql(String sql) 位置 F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\Domain\TbSysdevice.Biz.cs:行号 174
+   在 ToolsManage.frmMain.GetSysDevice() 位置 F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\frmMain.cs:行号 3399
+   在 ToolsManage.frmMain.frmMain_Load(Object sender, EventArgs e) 位置 F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\frmMain.cs:行号 113
+   在 System.EventHandler.Invoke(Object sender, EventArgs e)
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 DevExpress.XtraEditors.XtraForm.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 DevExpress.XtraEditors.XtraForm.WndProc(Message& msg)
+   在 DevExpress.XtraBars.Ribbon.RibbonForm.WndProc(Message& msg)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+16:13:00.532  7 N - 异常退出！对象名 'eventinfo' 无效。[SQL:Select Top 65535 * From eventinfo Order By id asc][DB:ToolsManage/SqlServer]
+
+#Software: ToolsManage
+#ProcessID: 19448
+#AppDomain: ToolsManage.vshost.exe
+#BaseDirectory: F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\bin\Debug\
+#CommandLine: "F:\科能软件\库房软件\陈海涛移交\库房\软件\上海长信库房软件\ToolsManage\ToolsManage\bin\Debug\ToolsManage.vshost.exe" 
+#ApplicationType: WinForm
+#CLR: 4.0.30319.42000, .NET Framework 4
+#OS: Windows 10.0 x64, Microsoft Windows NT 6.2.9200.0, Administrator/SHUGUANG
+#Memory: 4,563M/11,985M
+#CPU: 4
+#Date: 2018-06-13
+#字段: 时间 线程ID 线程池Y网页W普通N 线程名 消息内容
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+16:13:53.630  8 N - NewLife.Core v6.6.2018.0211 Build 2018-06-13 13:29:16 .NET Framework 4
+16:13:53.632  8 N - 组件核心库 ©2002-2017 新生命开发团队 http://git.newlifex.com/NewLife/X
+16:13:53.633  8 N - ToolsManage v1.0.0.0 Build 2000-01-01 .NET Framework 4
+16:13:53.633  8 N - ToolsManage Copyright © Lenovo 2015
+16:13:53.633  8 N - XCode v9.6.2017.0808 Build 2018-06-13 13:29:18 .NET Framework 4
+16:13:53.633  8 N - 大数据中间件 ©2002-2017 新生命开发团队 http://www.NewLifeX.com
+16:13:54.309  8 N - ToolsManage 设定 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;
+16:13:54.312  8 N - ToolsManage 格式 Data Source=.;Initial Catalog=ToolsManage;user=sa;password=123456;Pooling=false;Application Name=XCode_ToolsManage.vshost.exe_ToolsManage
+16:13:54.314  8 N - 集中初始化表架构时没赶上，现在补上！
+16:13:54.316  8 N - 开始同步检查表[TbSysdevice/SqlServer]的数据表架构……
+16:13:54.332  8 N - System.Data.SqlClient.Sql驱动C:\windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll 版本v4.0.0.0
+16:13:54.433  8 N - [ToolsManage]GetSchema("MetaDataCollections")
+16:13:54.488  8 N - [ToolsManage]GetSchema("Databases", "ToolsManage")
+16:13:54.506  8 N - select b.name n, a.value v from sys.extended_properties a inner join sysobjects b on a.major_id=b.id and a.minor_id=0 and a.name = 'MS_Description'
+16:13:54.507  8 N - [ToolsManage]GetSchema("Tables")
+16:13:54.512  8 N - SELECT 表名=d.name,字段序号=a.colorder,字段名=a.name,标识=case when COLUMNPROPERTY( a.id,a.name,'IsIdentity')=1 then Convert(Bit,1) else Convert(Bit,0) end,主键=case when exists(SELECT 1 FROM sysobjects where xtype='PK' and name in (SELECT name FROM sysindexes WHERE id = a.id AND indid in(SELECT indid FROM sysindexkeys WHERE id = a.id AND colid=a.colid))) then Convert(Bit,1) else Convert(Bit,0) end,类型=b.name,占用字节数=a.length,长度=COLUMNPROPERTY(a.id,a.name,'PRECISION'),小数位数=isnull(COLUMNPROPERTY(a.id,a.name,'Scale'),0),允许空=case when a.isnullable=1 then Convert(Bit,1)else Convert(Bit,0) end,默认值=isnull(e.text,''),字段说明=isnull(g.[value],'')FROM syscolumns a left join systypes b on a.xtype=b.xusertype inner join sysobjects d on a.id=d.id  and d.xtype='U' left join syscomments e on a.cdefault=e.id left join sys.extended_properties g on a.id=g.major_id and a.colid=g.minor_id and g.name = 'MS_Description'  order by a.id,a.colorder
+16:13:54.570  8 N - select ind.* from sys.indexes ind inner join sys.objects obj on ind.object_id = obj.object_id where obj.type='u'
+16:13:54.575  8 N - [ToolsManage]GetSchema("Columns")
+16:13:54.595  8 N - [ToolsManage]GetSchema("Indexes")
+16:13:54.601  8 N - [ToolsManage]GetSchema("IndexColumns")
